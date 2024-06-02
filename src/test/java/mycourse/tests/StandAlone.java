@@ -20,6 +20,7 @@ public class StandAlone {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
+		//New comments added
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
 		WebDriverManager.chromedriver().setup();
